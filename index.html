@@ -2,55 +2,34 @@
 <!-- Vincent Nguyen -->
 <!-- September 2018 -->
 <!-- https://vncegd.github.io/dyschordia/index.html -->
-
 <html>
     <head>
         <title>Dyschordia Game</title>
         <style>
             html, body {
                 margin: 0;
-                width: 100%;
-                height: 100%;
                 font-family: sans-serif;
+                text-align: center;
             }
             .jumbo, .about {
                 height: 100%;
-                overflow-y: auto;
             }
             .container {
-                padding: 5%;
+                margin: auto;
+                padding: 2% 0;
                 width: 90%;
-                height: 90%;
-            }
-            .title-box, .button-box {
-                text-align: center;
-            }
-            .learn-more-btn {
-                position: absolute;
-                bottom: 3vmin;
-                width: 90%;
-                text-align: center;
-            }
-            .chevron-down {
-                stroke: #000;
-                stroke-width: 3vmin;
-                stroke-linecap: round;
             }
             .jumbo button {
                 padding: 3vmin;
-                width: 50vmin;
+                width: 40vmin;
                 color: #FFF;
                 background-color: #000;
                 font-size: 1rem;
                 border: 1px solid #FFF;
-                border-radius: 0.5vmin;
                 cursor: pointer;
-                transition: .2s;
             }
             .jumbo button:hover {
                 background-color: #333;
-                box-shadow: 0 0 1vmin 0 #000;
-                transition: .1s;
             }
             .about {
                 color: #FFF;
@@ -63,10 +42,14 @@
                 width: 50%;
                 text-align: right;
             }
+            td {
+                text-align: left;
+            }
             #titleImage {
-                padding: 5%;
-                width: 90%;
+                padding: 5vmin;
+                width: 80%;
                 image-rendering: pixelated;
+                image-rendering: crisp-edges;
             }
             ::-webkit-scrollbar {
                 display: none;
@@ -84,14 +67,6 @@
                     <a href="dyschordia_mac_v0.3.2.zip"><button>Download .app (Mac)</button></a>
                 </div>
                 <h4 style="text-align: center">Dyschordia v0.3.2</h4>
-                <div class="learn-more-btn">
-                    <a href="#about">
-                        <svg class="chevron-down" width="3rem" viewbox="0 0 100 75">
-                            <line x1="10" y1="10" x2="50" y2="50"/>
-                            <line x1="50" y1="50" x2="90" y2="10"/>
-                        </svg>
-                    </a>
-                </div>
             </div>  
         </div>
         <div class="about" id="about">
@@ -104,19 +79,19 @@
                 <h3 style="text-align: center">Team VANS</h3>
                 <table>
                     <tr>
-                        <th>Programmer, Concept Artist:</th>
+                        <th>Programming, Concept Art:</th>
                         <td>Vincent Nguyen</td>
                     </tr>
                     <tr>
-                        <th>Music/Sound Director:</th>
+                        <th>Sound and Music:</th>
                         <td>Adnan el-Bedawi</td>
                     </tr>
                     <tr>
-                        <th>Art Director:</th>
+                        <th>Art and Animation:</th>
                         <td>Nick Simpkins</td>
                     </tr>
                     <tr>
-                        <th>Project Manager, Storywriter:</th>
+                        <th>Project Management, Level Design:</th>
                         <td>Scott Natter</td>
                     </tr>
                 </table>
